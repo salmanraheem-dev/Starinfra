@@ -120,7 +120,7 @@ export const Hero = () => {
 
       {/* Floating Elements */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-4 opacity-40">
-        <span className="text-[10px] uppercase tracking-[0.4em] font-bold">Scroll to Explore</span>
+        <span className="text-[10px] uppercase tracking-[0.4em] font-bold">Explore</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
